@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+How do you know?: very quickly manages sorted list, however struggles with randomized ones and struggles a lot with reversed one
+
+sort2 uses: merge sort
+How do you know?: this is the fastest one of the three
+
+
+sort3 uses: selection sort
+How do you know?: regardless of the way the data is arranged in the file, the alghrythm speed is pretty much the same in all conditions
+
+

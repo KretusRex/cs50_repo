@@ -1,0 +1,17 @@
+ddb
+Good morning! I see you're working on Speller. It's a challenging problem set, but I'm sure you can handle it!
+
+In your load function, you're trying to open a file based on command line arguments (argc and argv). However, these variables are not accessible in this function.
+They are parameters of the main function, not load.
+
+Instead, the load function receives the dictionary file name as a parameter (const char *dictionary).
+You should use this parameter to open your dictionary file. Here's a simplified version:
+
+FILE *input = fopen(dictionary, "r");
+if (input == NULL)
+{
+    printf("Could not open file.\n");
+    return false;
+}
+Remember, the goal of the load function is not just to open the file, but to read its contents into a data structure (like a hash table)
+that you can use to quickly check if a word is in the dictionary. After opening the file, you'll need to read each word and add it to your data structure.
