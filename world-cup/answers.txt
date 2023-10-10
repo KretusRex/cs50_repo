@@ -1,0 +1,15 @@
+Times:
+
+10 simulations: 0m0.021s
+100 simulations: 0m0.022s
+1000 simulations: 0m0.027s
+10000 simulations: 0m0.082s
+100000 simulations: 0m0.666s
+1000000 simulations: 0m6.535s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?: Canada and Sweden having 20% chance to win if simulation was ran ten times.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: It seems that predictions stabilizes after about 200000 simulations and increasing the number further does not result in a change of list later on.

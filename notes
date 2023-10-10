@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    string name = get_string("What's your name? "\n);
+
+    int n = 0;
+    while (name[n] != '\0')
+    {
+        n++;
+    }
+    printf("length of your name is %i characters \n", n);
+}
+
+int main(argc, string argv[])
